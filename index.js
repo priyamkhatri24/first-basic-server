@@ -23,7 +23,7 @@ const replaceTemplate = (temp, ele) => {
     data = data.replace(/{%ID%}/, ele.id);
     data = data.replace(/{%JOB%}/, ele.job);
     data = data.replace(/{%DATA%}/, ele.data);
-    data = data.replace(/%TITLE%/, ele.name);
+    data = data.replace(/{%TITLE%}/, ele.name);
     return data;
   }
 };
